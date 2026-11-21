@@ -1,0 +1,76 @@
+{
+  "network": "StudioNet",
+  "chain_id": 61999,
+  "contract": "FrameDocket",
+  "source": "contracts/frame_docket.py",
+  "source_sha256": "86c7358ccddf68e24e813fa57b409d299127e895d512d8648f8c5bcb6eabbdf4",
+  "deployer": "0xD7f3C260c5e6c63A2151a562E59F2E2d3D2b7780",
+  "transaction_hash": "0xf5f452edc0c78501ab3fdf9ca43ac18ebef94cb7e93871fed0730aaf139c3563",
+  "status": "FINALIZED",
+  "transaction_explorer": "https://explorer-studio.genlayer.com/tx/0xf5f452edc0c78501ab3fdf9ca43ac18ebef94cb7e93871fed0730aaf139c3563",
+  "address": "0xBB16f39C11e769EB98e9012EBc9658f031d5D056",
+  "execution": "SUCCESS",
+  "contract_explorer": "https://explorer-studio.genlayer.com/address/0xBB16f39C11e769EB98e9012EBc9658f031d5D056",
+  "source_matches": true,
+  "get_overview": {
+    "assets": 0,
+    "events": 0,
+    "grants": 0,
+    "releases": 0,
+    "version": "1.0.0"
+  },
+  "smoke_transactions": [
+    {
+      "method": "publish_grant",
+      "hash": "0xee9070ccfc0993f550f8c7b5a3201e316f4d281f5e64926b24d886b6f58c30d6",
+      "status": "FINALIZED",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xee9070ccfc0993f550f8c7b5a3201e316f4d281f5e64926b24d886b6f58c30d6",
+      "execution": "SUCCESS"
+    },
+    {
+      "method": "create_release",
+      "hash": "0x739f0c9a171b47736985fd927ef97e8646cd91106c7c1c0445bbfffff9d945e3",
+      "status": "FINALIZED",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x739f0c9a171b47736985fd927ef97e8646cd91106c7c1c0445bbfffff9d945e3",
+      "execution": "SUCCESS"
+    },
+    {
+      "method": "attach_asset",
+      "hash": "0x7519e4c0a79e452079e7703e38f598222633e17ea60b62f94a0a7a758070bbd8",
+      "status": "FINALIZED",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x7519e4c0a79e452079e7703e38f598222633e17ea60b62f94a0a7a758070bbd8",
+      "execution": "SUCCESS"
+    },
+    {
+      "method": "review_asset",
+      "hash": "0x350bf7eacca0cd91ae919972080b1d2ac49aad5bb593b900d57c4249401aa221",
+      "status": "FINALIZED",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x350bf7eacca0cd91ae919972080b1d2ac49aad5bb593b900d57c4249401aa221",
+      "execution": "SUCCESS"
+    },
+    {
+      "method": "seal_release",
+      "hash": "0x93a4b7636dbabd3b643efdaabc2095fa0359977c8626c6035f91e0d7cb54d36f",
+      "status": "FINALIZED",
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x93a4b7636dbabd3b643efdaabc2095fa0359977c8626c6035f91e0d7cb54d36f",
+      "execution": "SUCCESS"
+    }
+  ],
+  "smoke_review": {
+    "release_id": "R-0001",
+    "asset": "CLEAR",
+    "review": {
+      "at": "2026-11-21T07:39:19.696486Z",
+      "basis": "GENLAYER",
+      "decision": "CLEARED",
+      "obligations": [],
+      "quote": "Commercial worldwide use of the hypothetical waterfront shot in the web trailer is permitted. No additional conditions apply.",
+      "scope_problems": []
+    }
+  },
+  "smoke_manifest": {
+    "release_id": "R-0001",
+    "sha256": "7b42e4ae28f5092360ab7b5f000f2d7670c11fc4ed9a5081ac62ca7f291ecc58",
+    "status": "SEALED"
+  }
+}

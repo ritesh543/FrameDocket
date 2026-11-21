@@ -1,0 +1,268 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "attach_asset": {
+      "params": [
+        [
+          "release_id",
+          "string"
+        ],
+        [
+          "grant_id",
+          "string"
+        ],
+        [
+          "usage",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "create_release": {
+      "params": [
+        [
+          "title",
+          "string"
+        ],
+        [
+          "channel",
+          "string"
+        ],
+        [
+          "territory",
+          "string"
+        ],
+        [
+          "commercial",
+          "bool"
+        ],
+        [
+          "release_on",
+          "string"
+        ],
+        [
+          "brief",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_events": {
+      "params": [
+        [
+          "offset",
+          "int"
+        ],
+        [
+          "limit",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "array"
+    },
+    "get_grant": {
+      "params": [
+        [
+          "grant_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_manifest": {
+      "params": [
+        [
+          "release_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_overview": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "get_release": {
+      "params": [
+        [
+          "release_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "dict"
+    },
+    "list_grants": {
+      "params": [
+        [
+          "offset",
+          "int"
+        ],
+        [
+          "limit",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "array"
+    },
+    "list_releases": {
+      "params": [
+        [
+          "offset",
+          "int"
+        ],
+        [
+          "limit",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "array"
+    },
+    "publish_grant": {
+      "params": [
+        [
+          "title",
+          "string"
+        ],
+        [
+          "kind",
+          "string"
+        ],
+        [
+          "channels",
+          [
+            {
+              "$rep": "string"
+            }
+          ]
+        ],
+        [
+          "territory",
+          "string"
+        ],
+        [
+          "commercial_allowed",
+          "bool"
+        ],
+        [
+          "expires_on",
+          "string"
+        ],
+        [
+          "terms",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "record_obligation": {
+      "params": [
+        [
+          "release_id",
+          "string"
+        ],
+        [
+          "item_id",
+          "string"
+        ],
+        [
+          "obligation",
+          "string"
+        ],
+        [
+          "proof",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "any",
+      "payable": false
+    },
+    "remove_asset": {
+      "params": [
+        [
+          "release_id",
+          "string"
+        ],
+        [
+          "item_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "any",
+      "payable": false
+    },
+    "review_asset": {
+      "params": [
+        [
+          "release_id",
+          "string"
+        ],
+        [
+          "item_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "any",
+      "payable": false
+    },
+    "revoke_grant": {
+      "params": [
+        [
+          "grant_id",
+          "string"
+        ],
+        [
+          "reason",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "any",
+      "payable": false
+    },
+    "seal_release": {
+      "params": [
+        [
+          "release_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}
